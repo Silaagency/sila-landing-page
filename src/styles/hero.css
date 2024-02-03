@@ -1,0 +1,36 @@
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.hero img {
+    height: 500px;
+    animation-name: float;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0); /* Start position */
+    }
+    50% {
+        transform: translateY(20px); /* Move up */
+    }
+    100% {
+        transform: translateY(0); /* Return to the starting position */
+    }
+}
+
+.hero-text {
+    color: #fff;
+    font-size: 1.5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}

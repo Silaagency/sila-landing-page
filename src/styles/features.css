@@ -1,0 +1,41 @@
+.features {
+    background-image: url('../images\ &\ logos/gra.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 40px;
+    overflow: auto;
+}
+
+.container {
+    border-radius: 30px;
+    backdrop-filter: blur(30px);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.verified, .e-commerce, .video-editing,
+.dashboard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    text-align: end;
+}
+
+.verified h1, .e-commerce h1, .video-editing h1,
+.dashboard h1 {
+    color: purple;
+}
+
+.verified p, .e-commerce p, .video-editing p,
+.dashboard p {
+    max-width: 700px;
+}
+
+.verified img, .e-commerce img, .video-editing img,
+.dashboard img {
+    height: 100px;
+}

@@ -1,0 +1,48 @@
+.our-services {
+    height: 100vh;
+    background-color: #fff;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title img {
+    height: 100px;
+}
+
+.sections {
+    display: flex;
+}
+
+.left-sec, .right-sec {
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.right-sec img, .left-sec img {
+    height: 100px;
+}
+
+.dev, .vid, .customer-service, .ads,
+.fb, .unlock {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    text-align: end;
+}
+
+.dev h1, .vid h1, .customer-service h1, .ads h1,
+.fb h1, .unlock h1 {
+    color: purple;
+}
+
+.vid img {
+    height: 130px;
+}

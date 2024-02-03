@@ -1,0 +1,48 @@
+.who-are-we-sec {
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    gap: 10px;
+    background-color: #fff;
+    position: relative;
+}
+
+.who-are-we-sec div:not(.dots) {
+    width: 100%;
+}
+
+.who-are-we-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: end;
+    gap: 20px;
+}
+
+.who-are-we-img {
+    z-index: 1000;
+}
+
+.who-are-we-img img {
+    border-radius: 30px;
+}
+
+.dots {
+    background-color: #fff;
+    color: #000;
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.dots svg {
+    transform: scale(2);
+}

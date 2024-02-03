@@ -1,0 +1,58 @@
+.our-team {
+    height: 100vh;
+    background-image: url('../images\ &\ logos/white.jpg');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-inline: 50px;
+}
+
+.slider-container {
+    margin-top: 100px;
+    position: relative;
+}
+
+.slider {
+    display: flex;
+    gap: 20px;
+    overflow: auto;
+    position: relative;
+    border-radius: 20px;
+    scroll-behavior: smooth;
+}
+
+.slider::-webkit-scrollbar {
+    display: none;
+}
+
+.slider img {
+    height: 300px;
+}
+
+.prev {
+    position: absolute;
+    padding: 10px;
+    border-radius: 50%;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.next {
+    position: absolute;
+    padding: 10px;
+    border-radius: 50%;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
