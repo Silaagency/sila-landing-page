@@ -1,10 +1,14 @@
-.team {
-    background-color: #fff;
+.video {
+    background-color: #7538D4;
     height: 100vh;
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
 }
+
+.video h1 {
+    color: #fff;
+} 
 
 .video-container {
     display: flex;
@@ -14,5 +18,4 @@
 
 .video-container iframe {
     border-radius: 30px;
-    box-shadow: 0px 0px 50px rgba(0, 0, 0, .8);
 }

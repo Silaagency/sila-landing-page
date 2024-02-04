@@ -1,10 +1,15 @@
 .features {
-    background-image: url('../images\ &\ logos/gra.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100%;
+    background-color: #fff;
     padding: 40px;
     overflow: auto;
+}
+
+.features h1 {
+    color: #7538D4;
+}
+
+.title {
+    gap: 20px;
 }
 
 .container {
@@ -16,8 +21,10 @@
     gap: 60px;
 }
 
-.verified, .e-commerce, .video-editing,
-.dashboard {
+.e-commerce, .video-editing,
+.dashboard, .fb, .digital-marketing,
+.development, .design, .vid-editing,
+.infographic {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -25,17 +32,20 @@
     text-align: end;
 }
 
-.verified h1, .e-commerce h1, .video-editing h1,
-.dashboard h1 {
-    color: purple;
+.e-commerce, .development, .vid-editing {
+    text-align: start;
 }
 
-.verified p, .e-commerce p, .video-editing p,
-.dashboard p {
+.e-commerce p, .video-editing p,
+.dashboard p, .fb p, .digital-marketing p,
+.development p, .design p, .vid-editing p,
+.infographic p {
     max-width: 700px;
 }
 
-.verified img, .e-commerce img, .video-editing img,
-.dashboard img {
+.e-commerce img, .video-editing img,
+.dashboard img, .fb img, .digital-marketing img,
+.development img, .design img, .vid-editing img,
+.infographic img {
     height: 100px;
 }

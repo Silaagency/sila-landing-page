@@ -6,6 +6,8 @@ import OurServices from "../components/OurServices";
 import Features from "../components/Features";
 import Video from "../components/Video";
 import OurTeam from "../components/OurTeam";
+import ContactUs from "../components/ContactUs";
+import Footer from "../components/Footer";
 
 function HomePage() {
   return (
@@ -19,6 +21,8 @@ function HomePage() {
       <Features />
       <Video />
       <OurTeam />
+      <ContactUs />
+      <Footer />
     </div>
   )
 };

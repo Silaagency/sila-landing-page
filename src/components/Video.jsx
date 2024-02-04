@@ -3,7 +3,7 @@ import AnalyticImg from '../images & logos/analytic.png';
 
 function Video() {
   return (
-    <div className="team">
+    <div className="video">
         <div className="title">
             <img src={AnalyticImg} alt="" />
             <h1 className='analytic-text'>طريقة عملنا</h1>

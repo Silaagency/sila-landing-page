@@ -1,0 +1,32 @@
+.footer {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    padding-inline: 80px;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.right a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    transition: all .3s ease;
+}
+
+.right a:hover {
+    background-color: #000;
+    color: #fff;
+}

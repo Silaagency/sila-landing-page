@@ -1,10 +1,11 @@
 .our-team {
     height: 100vh;
-    background-image: url('../images\ &\ logos/white.jpg');
-    background-position: center;
-    background-size: 100%;
-    background-repeat: no-repeat;
+    background-color: #fff;
     padding-inline: 50px;
+}
+
+.our-team h1 {
+    color: #7538D4;
 }
 
 .slider-container {

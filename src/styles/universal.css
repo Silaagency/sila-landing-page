@@ -8,10 +8,7 @@
 }
 
 .app {
-  background-image: url("../images\ &\ logos/background-gradient-lights.jpg");
-  background-position: center;
-  background-size: 100%;
-  background-repeat: no-repeat;
+  background-color: #7538D4;
   overflow-x: hidden;
   scroll-behavior: smooth;
 }

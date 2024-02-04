@@ -1,6 +1,7 @@
 .our-services {
-    height: 100vh;
-    background-color: #fff;
+    background-color: #7538D4;
+    color: #fff;
+    padding: 20px;
 }
 
 .title {
@@ -30,17 +31,13 @@
 }
 
 .dev, .vid, .customer-service, .ads,
-.fb, .unlock {
+.fb, .unlock, .socialmedia-manager, .creative-vid,
+.shooting-vid, .motion-graphics, .wordpress, .dev {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     gap: 20px;
     text-align: end;
-}
-
-.dev h1, .vid h1, .customer-service h1, .ads h1,
-.fb h1, .unlock h1 {
-    color: purple;
 }
 
 .vid img {
