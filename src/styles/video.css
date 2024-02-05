@@ -4,18 +4,17 @@
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
+    position: relative;
 }
 
 .video h1 {
     color: #fff;
-} 
-
-.video-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
 }
 
-.video-container iframe {
+.video-frame {
     border-radius: 30px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }

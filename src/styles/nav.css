@@ -41,3 +41,10 @@
 .nav-btns a:hover .btn-line {
     width: 100%;
 }
+
+
+@media (max-width: 798px) {
+    .nav-btns {
+        display: none;
+    }
+}

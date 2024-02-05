@@ -41,6 +41,7 @@
 .development p, .design p, .vid-editing p,
 .infographic p {
     max-width: 700px;
+    min-width: 300px;
 }
 
 .e-commerce img, .video-editing img,
@@ -48,4 +49,10 @@
 .development img, .design img, .vid-editing img,
 .infographic img {
     height: 100px;
+}
+
+@media (max-width: 444px) {
+    .container img {
+        display: none;
+    }
 }

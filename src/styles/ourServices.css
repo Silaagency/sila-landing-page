@@ -16,6 +16,11 @@
 
 .sections {
     display: flex;
+    min-width: 300px;
+}
+
+.sections p {
+    min-width: 300px;
 }
 
 .left-sec, .right-sec {
@@ -43,3 +48,17 @@
 .vid img {
     height: 130px;
 }
+
+
+@media (max-width: 510px) {
+    .right-sec img, .left-sec img {
+        display: none;
+    }
+}
+
+@media (max-width: 984px) {
+    .sections {
+        flex-direction: column;
+        align-items: flex-end;
+    }
+};

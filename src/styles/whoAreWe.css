@@ -5,6 +5,7 @@
     gap: 10px;
     background-color: #fff;
     position: relative;
+    align-items: center;
 }
 
 .who-are-we-sec div:not(.dots) {
@@ -18,6 +19,7 @@
     justify-content: center;
     text-align: end;
     gap: 20px;
+    min-width: 300px;
 }
 
 .who-are-we-img {
@@ -26,6 +28,8 @@
 
 .who-are-we-img img {
     border-radius: 30px;
+    height: 100%;
+    width: 100%;
 }
 
 .dots {
@@ -41,8 +45,15 @@
     justify-content: center;
     align-items: center;
     border-radius: 50%;
+    z-index: 2000;
 }
 
 .dots svg {
     transform: scale(2);
+}
+
+@media (max-width: 902px) {
+    .who-are-we-img {
+        display: none;
+    }
 }
